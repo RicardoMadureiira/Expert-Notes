@@ -2,7 +2,6 @@ import * as Dialog from '@radix-ui/react-dialog'
 import { X } from 'lucide-react'
 import { ChangeEvent, FormEvent, useState } from 'react'
 import { toast} from 'sonner'
-
 interface NewNoteCardProps {
   onNoteCreated: (content: string) => void
 }
@@ -86,9 +85,9 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     }
 
     return(
-      <Dialog.Root>
+      <Dialog.Root>     
         <Dialog.Trigger className="rounded-md flex flex-col bg-slate-700 text-left p-5 gap-3 outline-none hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-400">
-          <span className="text-sm font-medium text-slate-200">
+          <span className="text-sm font-medium text-lime-400">
             Adicionar nota
           </span>
           <p className="text-sm leading-6 text-slate-400">
@@ -130,7 +129,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                         className="w-full flex items-center justify-center gap-2 bg-slate-900 py-4 text-center text-sm text-slate-300 outline-none font-medium hover:text-slate-100"
                       >
                         <div className="size-3 rounded-full bg-red-500 animate-pulse" />
-                        Gravando! (clique p/ interromper)
+                        Gravando! (clique aqui para interromper)
                       </button>
                     ) : (
                       <button 
@@ -143,7 +142,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                     )}
                     </form>
                 </Dialog.DialogContent>
-            </Dialog.Portal>
-      </Dialog.Root>
+            </Dialog.Portal>           
+      </Dialog.Root>   
     )
 }

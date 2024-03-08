@@ -2,6 +2,7 @@ import { ChangeEvent, useState } from 'react'
 import logo from './assets/Logo-expert.svg'
 import { NewNoteCard } from './components/new-note-card'
 import { NoteCard } from './components/note-card'
+import { NotebookPen } from 'lucide-react'
 
 interface Note {
   id: string
@@ -57,8 +58,10 @@ export function App() {
 
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6 px-5">
-      <img src={logo} alt="NLW Expert" />
-      
+      {/* <img src={logo} alt="NLW Expert" /> */}
+      <h1 className='flex gap-3 justify-center text-3xl text-lime-400'>
+        List of Notes
+      </h1>
       <form className="w-full">
         <input 
           type="text" 
