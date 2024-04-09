@@ -1,5 +1,5 @@
 # 📃 Sobre
-# App para adicionar notas "List of Notes" com a possibilidade de adicionar notas por áudio.
+#"List of Notes" App para adicionar notas  com a possibilidade de adicionar notas por áudio.
 ## 🚀 Tecnologias Utilizadas
  * **React + Vite** 
  * **TailwindCSS** 
