@@ -1,5 +1,6 @@
 # 📃 Sobre
-#"List of Notes" App para adicionar notas  com a possibilidade de adicionar notas por áudio.
+#"List of Notes" App para adicionar notas com a possibilidade de adicionar por áudio.
+# Pre view do site na Vercel: https://list-of-notes-h6w83pgwn-ricardo-madureiras-projects.vercel.app/
 ## 🚀 Tecnologias Utilizadas
  * **React + Vite** 
  * **TailwindCSS** 
